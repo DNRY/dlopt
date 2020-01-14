@@ -1,4 +1,4 @@
-name: deep-learning
+name: mnist-classification
 channels:
   - defaults
 dependencies:
@@ -7,9 +7,9 @@ dependencies:
   - jupyter_client=5.3.1
   - jupyter
   - notebook
-  - matplotlib=2
+  - matplotlib=2.*
   - numpy=1.14.5
-  - seaborn
-  - scikit-learn
   - setuptools=39.1.0
   - cython
+  - pip:
+    - inflect
