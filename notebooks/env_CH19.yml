@@ -1,15 +1,13 @@
-name: deep-learning
+name: gan
 channels:
   - defaults
 dependencies:
   - python=3.5
-  - tensorflow=1.10
+  - tensorflow-gpu=1.10
   - jupyter_client=5.3.1
   - jupyter
   - notebook
-  - matplotlib=2
+  - matplotlib=2.*
   - numpy=1.14.5
-  - seaborn
-  - scikit-learn
   - setuptools=39.1.0
   - cython
