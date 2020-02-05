@@ -33,3 +33,24 @@
 1. [GAN(Generative Adversarial Networks) 모델](https://github.com/DNRY/dlopt/blob/master/notebooks/CH19.ipynb)
 1. [영상](https://github.com/DNRY/dlopt/blob/master/notebooks/CH20.ipynb)
 1. [문자열 분석 word2vec](https://github.com/DNRY/dlopt/blob/master/notebooks/CH21.ipynb)
+
+
+## 수정사항
+### 1. 51 Page `2.3.1 데이터 타입마다 다른 for loop 스타일`
+- 변경 전:
+    ```
+    #출력:
+    1 2
+    3 4
+    5 6
+    1 2
+    3 4
+    5 6
+    ```
+- 변경 후:
+    ```
+    #출력:
+    1 2
+    3 4
+    5 6
+    ```
