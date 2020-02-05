@@ -2,7 +2,7 @@
 
 <table>
 <tr>
-    <td><img align="top" src="./images/book_cover.jpg" height="200"></td>
+    <td><img align="top" src="./images/book_cover.jpg" width="150"></td>
     <td>아래 목차의 링크를 이용하며 쉽게 소스코드를 볼 수 있습니다. 
       <br>책에서 사용된 모든 이미지는 images폴더에 있습니다.
       <br>궁금한 점은 Issue를 통해 문의하시면 최대한 빠른 시일에 답변해드립니다.
