@@ -1,5 +1,15 @@
 # 딥러닝을 위한 최적화와 수치해석
-<img src="./images/book_cover.jpg" height="200">
+
+<table>
+<tr>
+    <td><img align="top" src="./images/book_cover.jpg" height="200"></td>
+    <td>아래 목차의 링크를 이용하며 쉽게 소스코드를 볼 수 있습니다. 
+      <br>책에서 사용된 모든 이미지는 images폴더에 있습니다.
+      <br>궁금한 점은 Issue를 통해 문의하시면 최대한 빠른 시일에 답변해드립니다.
+      <br>혹시 있을 코드 오류나 오탈자 등도 Issue를 통해 알려주시면 수정하여 반영하겠습니다.
+  </td>
+</tr>
+</table>
 
 ## 목차
 1. 개발환경 설정하기
@@ -23,18 +33,3 @@
 1. [GAN(Generative Adversarial Networks) 모델](https://github.com/DNRY/dlopt/blob/master/notebooks/CH19.ipynb)
 1. [영상](https://github.com/DNRY/dlopt/blob/master/notebooks/CH20.ipynb)
 1. [문자열 분석 word2vec](https://github.com/DNRY/dlopt/blob/master/notebooks/CH21.ipynb)
-
-## Acaconda Environment
-### Without `yml`
-```bash
-$ conda remove --name deep-learning --all
-$ conda create --name deep-learning python=3.5
-$ conda activate deep-learning
-(deep-learning) $ conda install numpy=1.14.5 tensorflow=1.10 matplotlib=2 jupyter_client=5.3.1 jupyter notebook seaborn scikit-learn setuptools=39.1.0 cython
-```
-
-### With `yml`
-```
-$ conda remove --name deep-learning --all $ conda env create -f env.yml
-$ conda activate deep-learning
-```
