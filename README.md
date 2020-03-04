@@ -29,6 +29,17 @@ $ conda activate deep-learning
 (deep-learning) $ conda install numpy=1.14.5 tensorflow=1.10 matplotlib=2 jupyter_client=5.3.1 jupyter notebook seaborn scikit-learn setuptools=39.1.0 cython
 ```
 
+## 노트북 실행하기
+
+```bash
+$ git clone https://github.com/DNRY/dlopt.git
+$ cd dlopt
+$ conda activate deep-learning
+(deep-learning)$ cd notebooks
+(deep-learning)$ jupyter notebook
+
+```
+
 ## 목차
 1. 개발환경 설정하기
 1. [주피터 노트북과 파이썬 튜토리얼](https://github.com/DNRY/dlopt/blob/master/notebooks/CH02.ipynb)
