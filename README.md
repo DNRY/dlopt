@@ -83,3 +83,11 @@ $ conda activate deep-learning
     3 4
     5 6
     ```
+### 2. 137 Page 수식 오탈자
+- 변경 전:
+
+<img width="274" alt="수정사항2" src="./typos/p137_typo1.png">
+
+- 변경 후:
+
+<img width="274" alt="수정사항2" src="./typos/p137_typo1_fixed.png">
